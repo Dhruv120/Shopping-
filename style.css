@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Clicker+Script&family=Dancing+Script&family=Fredoka+One&family=Kanit:wght@300;400&family=Montserrat:wght@500&family=Poppins:wght@300;400;500;600&family=Prompt:wght@600&family=Redressed&family=Righteous&family=Sacramento&display=swap');
+
+*{
+    font-family: Kanit;
+}
+
+ section{
+    margin-top: 5%;
+} 
+
+html{
+    font-size: 62.5%;   
+} 
+
+.navbar{
+ 
+    padding-left:2% ;
+    padding-right: 2%;
+    box-sizing: border-box;
+    font-weight: bold;
+     /* font-size: 25px;  */
+    font-size: 2.5rem;  
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(28, 10, 58)
+}
+
+
+
+.firstpara {
+    box-sizing: border-box;
+    padding-top: 12%;
+   /* font-size: 25px; */
+   font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.secondpara {
+    /* font-size: 25px; */
+    font-size: 2.5rem;
+}
+
+
+.container .row  .para1{
+    box-sizing: border-box;
+    padding-top: 7%;
+/* font-size: 25px; */
+font-size: 2.5rem;
+font-weight: bold;
+text-align: center;
+}
+
+.container .row .para2{
+    box-sizing: border-box;
+    font-size: 2.0rem;
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+}
+    
+    
+
+.container .row .para3 {
+        box-sizing: border-box;
+        padding-top: 7%;
+        font-size: 2.0rem;
+        font-weight: bold;
+        text-align: center;
+   }
+
+
+.container .row .special
+{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-bottom: 2%;
+}
+
+.container .row .para4 {
+    box-sizing: border-box;
+    padding-top: 2%;
+    font-size: 3.0rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container .row .spc{
+    text-align: center;
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+
+.container .row .spc1{
+    text-align: left;
+    font-size: 1.8rem;
+   
+}
+
+.container .row .spc2{
+    text-align: center;
+    font-size: 3.0rem;
+    font-weight: bold;
+   
+}
+
+.special26{
+text-align: center;
+    
+    background-image: linear-gradient(white 50% ,rgb(28, 10, 58) 50% );
+    background-color: rgb(28, 10, 58);
+    
+} 
+
+.para5 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 3%;
+    padding-top:3% ;
+
+    color: aliceblue;
+}
+
+footer{
+    background-color:rgb(28, 10, 58);
+ 
+}
+
+.especial{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding: 3%;
+}
+
+.btmpara {
+    text-align: right;
+    font-size: 1.5rem;
+
+}
+.papapa h2{
+    box-sizing: border-box;
+    
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+}
+
+
+
+.papapa{
+    box-sizing: border-box;
+    padding-top: 2%;
+    font-size: 1.5rem;
+    
+}
+
+.iconss{
+    color: aliceblue;
+ 
+}
+.divicon{
+    text-align: right;
+    padding: 2.0rem;
+    
+}
+
+.divicon span{
+   
+    margin-right: 3%;
+    
+}
+/*MEDIA QUERY FOR RESPONSIVNESS*/
+
+@media (max-width: 1200px) and (min-width :990px)
+{
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 990px) and (min-width:769px) {
+    html{
+        font-size: 40%;
+    }
+}
+
+
+
+@media (max-width: 768px) and (min-width:481px) {
+    .navbar{
+        font-size: 2.2rem;
+    }
+    
+    html{
+        font-size: 32%;
+    }
+    .logo1{
+        width: 13%;
+    }
+}
+@media (max-width: 480px) and (min-width:0px) {
+    
+    
+    .navbar{
+        font-size: 1.7rem;
+    }
+    
+    html{
+        font-size: 25%;
+    }
+
+    .logo1{
+        width: 10%;
+    }
+}
